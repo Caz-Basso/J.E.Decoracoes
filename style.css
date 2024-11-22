@@ -453,16 +453,16 @@ section {
         padding: 10px;
     }
 
-    #landing_page {
+    #inicio {
         padding-top: 120px; 
         padding-bottom: 200px; 
     }
 
-    #landing_page h1 {
+    #inicio h1 {
         font-size: 80px; 
     }
 
-    #landing_page p {
+    #inicio p {
         font-size: 24px; 
         text-align: center;
     }
