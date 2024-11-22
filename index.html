@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+    <meta name="author" content="Camila Basso">
+    <meta name="description" content="Site fictício voltado para estudo de CSS">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>J.E. Decorações</title>
+    <link rel="icon" type="image/x-icon" href="icones/LogoTransparente.ico">
+</head>
+<body>
+    <header class="cabecalho">
+        <img id="img-logo" src="Imagens/Logo.png" alt="Logo da Empresa">
+        <nav class="nav">
+            <ul class="nav_lista">
+                <li class="nav_item"><a href="#sobre">Sobre</a></li>
+                <li class="nav_item"><a href="#servicos">Serviços</a></li>
+                <li class="nav_item"><a href="#portifolio">Portfólio</a></li>
+                <li class="nav_item"><a href="#contato">Contato</a></li>
+            </ul>        
+        </nav>
+
+        <section class="hamburguer">
+            <i class="fas fa-bars"></i>
+        </section>
+    </header>
+    
+
+    <section id="inicio">
+        <h1>J.E.</h1>
+        <h1>Decorações</h1>
+        <p>Transformando momentos em memórias inesquecíveis</p>
+    </section>
+    
+    <section id="sobre">
+        <h3 class="titulo">Sobre Nós</h3>
+        <section class="texto"> 
+            <p>
+                Sou Jucelaine, fundadora da J.E. Decorações, uma empresa que nasceu da minha paixão pela arte de transformar ambientes e criar momentos inesquecíveis. Tudo começou como um hobby, quando eu decorava eventos para amigos e familiares, sempre buscando dar um toque especial e encantador a cada ocasião. <br><br>Com o tempo, percebi que isso poderia se tornar algo maior. O reconhecimento e o carinho das pessoas ao verem meu trabalho me motivaram a transformar essa paixão em um negócio profissional. Assim, surgiu a J.E. Decorações. <br><br>Hoje, atuo em Criciúma e região, oferecendo decorações personalizadas e cuidadosas para eventos de todos os tipos. Meu objetivo é ajudar você a criar memórias únicas e tornar cada celebração ainda mais especial.
+            </p>
+        </section>
+        <section>
+            <img id="imgJE" src="Imagens/Logo.png" alt="Logo">
+        </section>
+    </section>
+    
+    
+    <section id="servicos">
+        <section class="conteudo">
+            <h3 class="titulo">Nossos Serviços</h3>
+            <section class="container">
+                <article class="card">
+                    <section class="icone">
+                        <img src="icones/casamento.png" alt="Decoração de Casamentos">
+                    </section>
+                    <h4 class="topico">Decoração de Casamentos</h4>
+                    <p>Transforme seu casamento em um cenário mágico e inesquecível.</p>
+                </article>
+                <article class="card">
+                    <section class="icone">
+                        <img src="icones/debutante.png" alt="Festa de Debutante">
+                    </section>
+                    <h4 class="topico">Festa de Debutante</h4>
+                    <p>Celebre seus 15 anos com uma decoração encantadora e cheia de estilo.</p>
+                </article>
+                <article class="card">
+                    <section class="icone">
+                        <img src="icones/bolo.png" alt="Festa de Aniversário">
+                    </section>
+                    <h4 class="topico">Festa de Aniversário</h4>
+                    <p>Crie momentos inesquecíveis com decorações únicas para sua festa.</p>
+                </article>
+                <article class="card">
+                    <section class="icone">
+                        <img src="icones/tematico.png" alt="Eventos Temáticos">
+                    </section>
+                    <h4 class="topico">Eventos Temáticos</h4>
+                    <p>Dê vida ao tema dos seus sonhos com nossa decoração personalizada.</p>
+                </article>
+            </section>
+        </section>
+    </section> 
+    
+    <section id="portifolio">
+        <h3 class="titulo">Portfólio</h3>   
+        <p>Confira alguns dos nossos projetos favoritos, cuidadosamente planejados para transformar eventos em momentos inesquecíveis. Clique para explorar cada detalhe e inspire-se para o seu próximo evento!</p>
+        <article class="carrossel">
+            <button id="btn_voltar">&#10094;</button>
+            <img id="moldura" src="Imagens/foto1.jpg" alt="Imagem do portfólio">
+            <button id="btn_avancar">&#10095;</button>
+        </article>    
+    </section>
+    
+    
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Entre em contato conosco!</h2>
+        <p>Se você tiver dúvidas, quiser fazer um orçamento ou contratar nossos serviços, estamos à disposição!</p>
+        
+        <ul class="social-links">
+            <li>
+                <a href="https://wa.me/554896697442" class="whatsapp" target="_blank">
+                    <img src="icones/whatsapp.png" alt="Ícone WhatsApp">
+                    WhatsApp
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/j.e_decoracoes2015?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram" target="_blank">
+                    <img src="icones/instagram.png" alt="Ícone Instagram">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    
+    <footer class="rodape">
+        <section class="informacoes">
+            <p>&copy; 2024 J.E. Decorações. Todos os direitos reservados.</p>
+            <nav class="nav-rodape">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portifolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>    
+
+    <script src="script.js"></script>                   
+</body>
+</html>
