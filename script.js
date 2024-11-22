@@ -1,7 +1,7 @@
 var moldura;
 var botaoVoltar;
 var botaoAvancar;
-var indice = 0; // Inicializando o índice com 0 (primeira imagem)
+var indice = 0;
 var temporizador;
 var fotos;
 const pastaImagem = "Imagens/";
@@ -17,7 +17,7 @@ fotos = ["foto1", "foto2", "foto3", "foto4", "foto5", "foto6", "foto7", "foto8",
 window.onload = Inicio;
 
 function Inicio() {
-    MostrarFoto(); // Mostrar a primeira foto ao carregar a página
+    MostrarFoto();
     botaoAvancar.onclick = Avancar;
     botaoVoltar.onclick = Voltar;
 }
@@ -40,7 +40,7 @@ function Voltar() {
     if (indice > 0) {
         indice--;
     } else {
-        indice = fotos.length - 1; // Volta para a última foto
+        indice = fotos.length - 1; 
     }
     MostrarFoto();
     console.log(indice);
