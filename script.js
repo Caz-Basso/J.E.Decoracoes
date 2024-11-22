@@ -4,7 +4,7 @@ var botaoAvancar;
 var indice = 0;
 var temporizador;
 var fotos;
-const pastaImagem = "Imagens/";
+const pastaImagem = "imagens/";
 const extensaoImagem = ".jpg";
 
 botaoVoltar = document.getElementById("btn_voltar");
